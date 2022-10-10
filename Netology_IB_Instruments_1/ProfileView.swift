@@ -18,5 +18,4 @@ class ProfileView: UIViewController {
     @IBOutlet weak var dateOfBirthLabel: UILabel!
     
     @IBOutlet weak var nativeTown: UILabel!
-    
 }
