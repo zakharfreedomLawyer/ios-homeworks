@@ -9,6 +9,7 @@ import UIKit
 
 class ProfileView: UIViewController {
 
+    @IBOutlet weak var textView: UITextView!
     
     @IBOutlet weak var avatarLabel: UIImageView!
     
@@ -16,8 +17,6 @@ class ProfileView: UIViewController {
     
     @IBOutlet weak var dateOfBirthLabel: UILabel!
     
-    @IBOutlet weak var nativeTownLabel: UILabel!
+    @IBOutlet weak var nativeTown: UILabel!
     
-    //override func viewDidLoad() {
-      //  super.viewDidLoad()
-  } 
+}
